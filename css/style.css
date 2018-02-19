@@ -1,0 +1,86 @@
+body {
+    background: url("https://s-media-cache-ak0.pinimg.com/originals/dc/5e/34/dc5e3422930b5abe16d61e8d284a9c98.jpg");
+    /* background-size: cover; */
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+.bar {
+    background: white;
+    max-width: 300px;
+    /* max-height: 300px; */
+    padding: 2em;
+    margin: 1em auto;
+    text-align: center;
+    border-radius: 25px;
+    position: relative;
+    z-index: 3;
+    font-size: 12px;
+}
+
+.bar input {
+    width: 250px;
+    length: 15px;
+    height: 20px;
+    padding-left: 30px;
+    border-radius: 25px;
+}
+
+#header2 {
+    color: white;
+    position: relative;
+    margin-top: 3em;
+    left: 0em;
+    text-align: center;
+}
+
+#header {
+    text-transform: uppercase;
+}
+
+button {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+    /* Green */
+    margin-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+button:hover {
+    background-color: #4CAF50;
+    /* Green */
+    color: white;
+}
+
+#icon3 {
+    z-index: 2;
+    position: relative;
+    left: -128px;
+    top: 22px;
+    font-size: 16px;
+}
+
+#icon2 {
+    z-index: 2;
+    position: relative;
+    left: -128px;
+    top: 149px;
+    font-size: 16px;
+}
+
+.hero {
+    position: fixed;
+    z-index: 2;
+    background: rgba(10, 253, 245, 0.5);
+    width: 100%;
+    height: 100%;
+}
+
+#pass {
+    position: relative;
+    top: 25px;
+}
